@@ -14,8 +14,9 @@ class Circle:
 		self.diameter = radius * 2
 
 small = Circle(10)
-print(small.diameter)
-print(small.radius)
+print(small.diameter) #10
+print(small.radius) #20
+#this is able to be changed because of the @radius.setter decorator
 small.radius = 20
-print(small.radius)
-print(small.diameter)
+print(small.radius) #20
+print(small.diameter) #40
