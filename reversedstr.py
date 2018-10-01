@@ -1,4 +1,3 @@
-#class that reverses a string
 class ReversedStr(str):
 	#__new__ is a class method that doesn't take self
 	def __new__(*args, **kwargs):
