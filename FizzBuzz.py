@@ -3,6 +3,7 @@
 
 class Solution:
     def fizzBuzz(self, n):
+        #create a list of numbers from 1 to n+1
         num = list(range(1, n+1))
         answer = []
         for i in range(n):
